@@ -88,8 +88,8 @@ body{
 
 #j1{
     grid-area: h;
-    border: 1px solid TRANSPARENT;
-    font-size: 2REM;
+    border: 1rem solid TRANSPARENT;
+    font-size: 1REM;
     text-decoration: underline solid white auto;
     font-family: "Playfair Display", serif;
 }
