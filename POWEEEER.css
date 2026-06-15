@@ -46,7 +46,7 @@ body{
 #d2{
     position:relative;
     display:grid;
-    grid-template: 0.3fr 0.3fr 0.3fr/repeat(5, 1fr);
+    grid-template: 0.1fr 0.1fr 0.1fr/repeat(5, 1fr);
     place-items: center center;
     align-items: center;
     width:90vw;
