@@ -4,7 +4,7 @@
 body{
     background: black;
     height:100%;
-    MARGIN:0PX;
+    MARGIN:0rem;
 }
 
 #imgbody{
@@ -25,7 +25,7 @@ body{
     color:rgb(0, 0, 0);
     width: 100vw;
     BACKGROUND-color:rgb(236, 236, 236);
-    top:0px;
+    top:0rem;
     z-index:3;
 }
 
@@ -39,7 +39,7 @@ body{
     background:rgb(0, 0, 75);
     MARGIN-inline:7%;
     MARGIN-top:2%;
-    margin-bottom:0px;
+    margin-bottom:0rem;
     z-index:2;
 }
 
@@ -56,7 +56,7 @@ body{
     border:20px double rgb(0, 0, 0);
     BACKGROUND-color:grey;
     box-sizing: border-box;
-    top:0px;
+    top:0rem;
     z-index:2;
 }
 
@@ -83,20 +83,21 @@ body{
 .div1h{
     color:white;
     border:10px outset white;
-    margin-BOTTOM:0px;
+    margin-BOTTOM:0rem;
 }
 
 #j1{
     grid-area: h;
-    border: 1rem solid TRANSPARENT;
-    font-size: 1REM;
+    border: 1px solid TRANSPARENT;
+    font-size: 4Rem;
     text-decoration: underline solid white auto;
     font-family: "Playfair Display", serif;
 }
 
 .img1{
-    width:15vw;
-    height:30vh;
+    width: 15VW;
+    aspect-ratio: 2/2;
+    object-fit: cover;
     BORDER-radius:1%;
     border:3px solid black;
 }
@@ -106,13 +107,13 @@ body{
     color:white;
     background-color:black;
     BORDER:5PX INSET rgb(0, 0, 0);
-    width:70%;
-    HEIGHT:50%;
+    width:10vw;
+    HEIGHT:5vh;
     TEXT-ALIGN: CENTER;
     JUSTIFY-CONTENT:center;
     ALIGN-items:center;
     text-wrap:nowrap;
-    MARGIN-TOP:1px;
+    MARGIN-TOP:1rem;
 }
 
 
