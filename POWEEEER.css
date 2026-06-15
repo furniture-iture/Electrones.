@@ -46,11 +46,11 @@ body{
 #d2{
     position:relative;
     display:grid;
-    grid-template: 0.9fr 0.3fr 0.3fr/repeat(5, 1fr);
+    grid-template: 0.3fr 0.3fr 0.3fr/repeat(5, 1fr);
     place-items: center center;
-    align-items:center;
+    align-items: center;
     width:90vw;
-    height:90vh;
+    height:AUTO;
     margin-inline:5%;
     BOX-SIZING:border-box;
     border:20px double rgb(0, 0, 0);
@@ -73,13 +73,6 @@ body{
     COLOR:white;
 }
 
-.div1{
-    color:white;
-    border:10px outset white;
-    margin-BOTTOM:2%;
-    text-shadow:1.5vw 2vh 1px black;
-}
-
 .div1h{
     color:white;
     border:10px outset white;
@@ -93,6 +86,9 @@ body{
     font-size: 4Rem;
     text-decoration: underline solid white auto;
     font-family: "Playfair Display", serif;
+    color:white;
+    margin-BOTTOM:2%;
+    text-shadow:1.5vw 2vh 1px black;
 }
 
 .img1{
@@ -150,4 +146,10 @@ body{
     font-size:2em;
     text-align:CENTER;
     place-self:center TOP;
+}
+
+#d4{
+    display: flex;
+    FLEX-DIRECTION:row;
+    
 }
