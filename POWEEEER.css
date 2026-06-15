@@ -8,10 +8,11 @@ body{
 }
 
 #imgbody{
-    width:100%;
-    height:100%;
-    POSITION: FIXED;
-    Z-INDEX:1;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 #d0{
