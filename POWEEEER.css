@@ -32,7 +32,7 @@ body{
 #d1{
     position:relative;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 0.5fr);
     grid-template-rows: 2fr 0.25fr;
     grid-template-areas:"h h h h h" "a b c d e" "f g j i k";
     text-align: center;
